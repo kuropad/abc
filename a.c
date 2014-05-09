@@ -1,14 +1,14 @@
 #include <stdi.h>
 
-void main();
+int main();
 
 
-void main()
+int main()
 {
 
 	puts("Hello World!\n");
 	
 	getchar(); //--wait for key input
 
-
+	return 0;
 }
